@@ -1,0 +1,14 @@
+body {
+  background-color: #f8f9fa; /* Abu-abu sangat muda biar mata gak sakit */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Efek Hover pada Card */
+.hover-shadow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px); /* Naik sedikit */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important; /* Bayangan lebih tebal */
+}
